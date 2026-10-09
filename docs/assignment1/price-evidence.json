@@ -1,0 +1,205 @@
+{
+  "provider": "Microsoft Azure Retail Prices API",
+  "access_date": "2026-10-09",
+  "currency": "USD",
+  "region": "canadacentral",
+  "prices": [
+    {
+      "component": "blob",
+      "source_url": "https://prices.azure.com/api/retail/prices?currencyCode=USD&%24filter=serviceName+eq+%27Storage%27+and+armRegionName+eq+%27canadacentral%27+and+productName+eq+%27General+Block+Blob+v2%27",
+      "rates": [
+        {
+          "productName": "General Block Blob v2",
+          "skuName": "Hot LRS",
+          "meterName": "Hot Read Operations",
+          "retailPrice": 0.0044,
+          "unitOfMeasure": "10K",
+          "tierMinimumUnits": 0.0,
+          "currencyCode": "USD",
+          "armRegionName": "canadacentral",
+          "effectiveStartDate": "2020-01-01T00:00:00Z"
+        },
+        {
+          "productName": "General Block Blob v2",
+          "skuName": "Hot LRS",
+          "meterName": "Hot LRS Data Stored",
+          "retailPrice": 0.02,
+          "unitOfMeasure": "1 GB/Month",
+          "tierMinimumUnits": 0.0,
+          "currencyCode": "USD",
+          "armRegionName": "canadacentral",
+          "effectiveStartDate": "2017-02-03T00:00:00Z"
+        },
+        {
+          "productName": "General Block Blob v2",
+          "skuName": "Hot LRS",
+          "meterName": "All Other Operations",
+          "retailPrice": 0.0044,
+          "unitOfMeasure": "10K",
+          "tierMinimumUnits": 0.0,
+          "currencyCode": "USD",
+          "armRegionName": "canadacentral",
+          "effectiveStartDate": "2020-01-01T00:00:00Z"
+        },
+        {
+          "productName": "General Block Blob v2",
+          "skuName": "Hot LRS",
+          "meterName": "Hot LRS Write Operations",
+          "retailPrice": 0.055,
+          "unitOfMeasure": "10K",
+          "tierMinimumUnits": 0.0,
+          "currencyCode": "USD",
+          "armRegionName": "canadacentral",
+          "effectiveStartDate": "2020-01-01T00:00:00Z"
+        },
+        {
+          "productName": "General Block Blob v2",
+          "skuName": "Hot LRS",
+          "meterName": "LRS List and Create Container Operations",
+          "retailPrice": 0.055,
+          "unitOfMeasure": "10K",
+          "tierMinimumUnits": 0.0,
+          "currencyCode": "USD",
+          "armRegionName": "canadacentral",
+          "effectiveStartDate": "2020-01-01T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "component": "training_vm",
+      "source_url": "https://prices.azure.com/api/retail/prices?currencyCode=USD&%24filter=serviceName+eq+%27Virtual+Machines%27+and+armRegionName+eq+%27canadacentral%27+and+armSkuName+eq+%27Standard_DS3_v2%27+and+priceType+eq+%27Consumption%27",
+      "rates": [
+        {
+          "productName": "Virtual Machines DSv2 Series",
+          "skuName": "DS3 v2",
+          "meterName": "DS3 v2",
+          "retailPrice": 0.28,
+          "unitOfMeasure": "1 Hour",
+          "tierMinimumUnits": 0.0,
+          "currencyCode": "USD",
+          "armRegionName": "canadacentral",
+          "effectiveStartDate": "2025-05-01T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "component": "alternative_vm",
+      "source_url": "https://prices.azure.com/api/retail/prices?currencyCode=USD&%24filter=serviceName+eq+%27Virtual+Machines%27+and+armRegionName+eq+%27canadacentral%27+and+armSkuName+eq+%27Standard_D2s_v3%27+and+priceType+eq+%27Consumption%27",
+      "rates": [
+        {
+          "productName": "Virtual Machines DSv3 Series",
+          "skuName": "D2s v3",
+          "meterName": "D2s v3",
+          "retailPrice": 0.111,
+          "unitOfMeasure": "1 Hour",
+          "tierMinimumUnits": 0.0,
+          "currencyCode": "USD",
+          "armRegionName": "canadacentral",
+          "effectiveStartDate": "2017-07-21T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "component": "acr",
+      "source_url": "https://prices.azure.com/api/retail/prices?currencyCode=USD&%24filter=serviceName+eq+%27Container+Registry%27+and+armRegionName+eq+%27canadacentral%27+and+skuName+eq+%27Basic%27",
+      "rates": [
+        {
+          "productName": "Container Registry",
+          "skuName": "Basic",
+          "meterName": "Basic Registry Unit",
+          "retailPrice": 0.1666,
+          "unitOfMeasure": "1/Day",
+          "tierMinimumUnits": 0.0,
+          "currencyCode": "USD",
+          "armRegionName": "canadacentral",
+          "effectiveStartDate": "2018-01-01T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "component": "keyvault",
+      "source_url": "https://prices.azure.com/api/retail/prices?currencyCode=USD&%24filter=serviceName+eq+%27Key+Vault%27+and+armRegionName+eq+%27canadacentral%27",
+      "rates": [
+        {
+          "productName": "Key Vault",
+          "skuName": "Standard",
+          "meterName": "Operations",
+          "retailPrice": 0.03,
+          "unitOfMeasure": "10K",
+          "tierMinimumUnits": 0.0,
+          "currencyCode": "USD",
+          "armRegionName": "canadacentral",
+          "effectiveStartDate": "2015-08-01T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "component": "disk",
+      "source_url": "https://prices.azure.com/api/retail/prices?currencyCode=USD&%24filter=serviceName+eq+%27Storage%27+and+armRegionName+eq+%27canadacentral%27+and+skuName+eq+%27E4+LRS%27",
+      "rates": [
+        {
+          "productName": "Standard SSD Managed Disks",
+          "skuName": "E4 LRS",
+          "meterName": "E4 LRS Disk",
+          "retailPrice": 2.64,
+          "unitOfMeasure": "1/Month",
+          "tierMinimumUnits": 0.0,
+          "currencyCode": "USD",
+          "armRegionName": "canadacentral",
+          "effectiveStartDate": "2020-01-01T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "component": "functions",
+      "source_url": "https://prices.azure.com/api/retail/prices?currencyCode=USD&%24filter=serviceName+eq+%27Functions%27+and+armRegionName+eq+%27canadacentral%27",
+      "rates": [
+        {
+          "productName": "Flex Consumption",
+          "skuName": "On Demand",
+          "meterName": "On Demand Execution Time",
+          "retailPrice": 0.0,
+          "unitOfMeasure": "1 GB Second",
+          "tierMinimumUnits": 0.0,
+          "currencyCode": "USD",
+          "armRegionName": "canadacentral",
+          "effectiveStartDate": "2025-02-01T00:00:00Z"
+        },
+        {
+          "productName": "Flex Consumption",
+          "skuName": "On Demand",
+          "meterName": "On Demand Execution Time",
+          "retailPrice": 3.7e-05,
+          "unitOfMeasure": "1 GB Second",
+          "tierMinimumUnits": 100000.0,
+          "currencyCode": "USD",
+          "armRegionName": "canadacentral",
+          "effectiveStartDate": "2025-02-01T00:00:00Z"
+        },
+        {
+          "productName": "Flex Consumption",
+          "skuName": "On Demand",
+          "meterName": "On Demand Total Executions",
+          "retailPrice": 0.0,
+          "unitOfMeasure": "10",
+          "tierMinimumUnits": 0.0,
+          "currencyCode": "USD",
+          "armRegionName": "canadacentral",
+          "effectiveStartDate": "2025-02-01T00:00:00Z"
+        },
+        {
+          "productName": "Flex Consumption",
+          "skuName": "On Demand",
+          "meterName": "On Demand Total Executions",
+          "retailPrice": 4e-06,
+          "unitOfMeasure": "10",
+          "tierMinimumUnits": 25000.0,
+          "currencyCode": "USD",
+          "armRegionName": "canadacentral",
+          "effectiveStartDate": "2025-02-01T00:00:00Z"
+        }
+      ]
+    }
+  ],
+  "note": "Provider rates are verified snapshots. Labour, electricity, usage and the ancillary allowance are scenario assumptions, not provider quotes."
+}
